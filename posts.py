@@ -7,5 +7,6 @@ response = requests.get(url)
 data = response.json()
 # print(data)
 
+# iteration over data
 for i in data:
     print(i)
